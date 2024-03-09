@@ -137,6 +137,11 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
+      'primary': '#ffc045',
+      'secondary': '#3d2514',
+      'red-primary': '#bf2222',
+
+
       black: colors.black,
       white: colors.white,
       slate: colors.slate,
@@ -303,6 +308,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      'secondary':['"Alfa Slab One"'],
       sans: [
         'ui-sans-serif',
         'system-ui',
