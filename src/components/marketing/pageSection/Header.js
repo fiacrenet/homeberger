@@ -5,7 +5,7 @@ import Button from '../../elements/Button';
 
 export default function Header() {
   return (
-    <div className='flex items-center justify-between py-10'>
+    <div className='relative z-10 flex items-center justify-between py-10'>
     <div className='h-20 w-full font-black'>
         <img src={Logo} alt='Burger house App' className='w-64'/> 
     </div>
@@ -15,10 +15,10 @@ export default function Header() {
         <span> Commander votre repas en ligne </span>
       </div>
       <div className='mt-3 flex items-center justify-end'>
-      <Button className={'bg-primary hover:bg-secondary mr-4'}>
+      <Button className='mr-4 tracking-widest' >
       inscription
       </Button>
-      <Button className={'bg-secondary hover:bg-primary'}>
+      <Button className ='tracking-widest' color='secondary'>
       connexion
       </Button>
       </div>

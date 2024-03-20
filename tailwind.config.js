@@ -137,9 +137,14 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
+
+      
       'primary': '#ffc045',
+        'primary-hover' : '#f5b029',
       'secondary': '#3d2514',
+        'secondary-hover':'#3d2514',
       'red-primary': '#bf2222',
+        'red-primary-hover' : '#990e0e',
 
 
       black: colors.black,
